@@ -5,7 +5,8 @@
 import random
 
 def run():
-    
+
+#Dictionaries    
     Pot1 = {
         'Qatar'
         'Brazil',
@@ -50,6 +51,7 @@ def run():
         'UEFA'
     }
 
+#Code starts here
 
 
 if __name__ == '__main__':
