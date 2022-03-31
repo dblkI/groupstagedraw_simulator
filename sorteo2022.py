@@ -1,4 +1,4 @@
-### PROGRAMA QUE CORRE EL SORTEO PARA LA FASE DE GRUPOS DEL MUNDIAL QATAR 2022
+### Qatar 2022 world cup group stage draw
 #
 # Author: dblkl_
 
@@ -50,7 +50,7 @@ def run():
         'UEFA'
     }
 
-    
+
 
 if __name__ == '__main__':
     run()
