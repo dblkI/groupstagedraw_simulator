@@ -3,26 +3,15 @@
 # Author: dblkl_
 
 import random
-
 from pure_eval import group_expressions
 
 
 def run():
 
     # Dictionaries
-    Pot1 = [
-        'Qatar',
-        'Brazil',
-        'Belgium',
-        'France',
-        'Argentina',
-        'England',
-        'Spain',
-        'Portugal'
-    ]
+    Pot1 = ['Qatar','Brazil','Belgium','France','Argentina','England','Spain','Portugal']
 
-    Pot2 = [
-        'Mexico',
+    Pot2 = ['Mexico',
         'Netherlands',
         'Denmark',
         'Germany',
@@ -56,126 +45,22 @@ def run():
 
 
 # Code starts here
+    groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
-   
-    print("\nGROUP A")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP B")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP C")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP D")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP E")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP F")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP G")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-
-    print("\nGROUP H")
-    p = random.randint(0,len(Pot1)-1)
-    print(Pot1[p])
-    Pot1.pop(p)
-    p = random.randint(0,len(Pot2)-1)
-    print(Pot2[p])
-    Pot2.pop(p)
-    p = random.randint(0,len(Pot3)-1)
-    print(Pot3[p])
-    Pot3.pop(p)
-    p = random.randint(0,len(Pot4)-1)
-    print(Pot4[p])
-    Pot4.pop(p)
-# Print results
-    #teams = Pot1 + Pot2 + Pot3 + Pot4
-    #print("\nPot1: " + str(Pot1))
-    #print("Pot2: " + str(Pot2))
-    #print("Pot3: " + str(Pot3))
-    #print("Pot4: " + str(Pot4))
-    #print("\nParticipating national teams: " + str(len(teams)))
+    for i in groups:   
+        print("\nGROUP " +i)
+        p = random.randint(0,len(Pot1)-1)
+        print(Pot1[p])
+        Pot1.pop(p)
+        p = random.randint(0,len(Pot2)-1)
+        print(Pot2[p])
+        Pot2.pop(p)
+        p = random.randint(0,len(Pot3)-1)
+        print(Pot3[p])
+        Pot3.pop(p)
+        p = random.randint(0,len(Pot4)-1)
+        print(Pot4[p])
+        Pot4.pop(p)
     
 
 if __name__ == '__main__':
