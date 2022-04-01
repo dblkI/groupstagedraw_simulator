@@ -1,4 +1,4 @@
-# Qatar 2022 world cup group stage draw
+# Qatar 2022 world cup group stage draw Simulator
 ## Participating national teams
 
 ### Pot1
