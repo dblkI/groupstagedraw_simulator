@@ -8,6 +8,8 @@ from pure_eval import group_expressions
 
 def run():
 
+    print("Do it... Even if the draw is over")
+
 # Lists
     Pot1 = ['Qatar','Brazil','Belgium','France','Argentina','England','Spain','Portugal']
     Pot2 = ['Mexico','Netherlands','Denmark','Germany','Uruguay','Switzerland','USA','Croatia']
